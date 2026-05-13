@@ -1136,7 +1136,7 @@ section { scroll-margin-top: 80px; position: relative; }
       </div>
 
       <div class="about-stats reveal">
-        <div class="cell"><div class="k">1937</div><div class="v">დაარსდა</div></div>
+        <div class="cell"><div class="k">1880</div><div class="v">დაარსდა</div></div>
         <div class="cell"><div class="k">VII</div><div class="v">წმინდა წესი</div></div>
         <div class="cell"><div class="k">∞</div><div class="v">ერთგულება</div></div>
       </div>
@@ -1177,7 +1177,7 @@ section { scroll-margin-top: 80px; position: relative; }
           <span class="text">კოდექსი</span>
           <span class="line"></span>
         </div>
-        <h2 class="gold">წმინდა წესები</h2>
+        <h2 class="gold">ოჯახის წესები</h2>
         <p class="italian">— Le Regole —</p>
         <div class="rule"></div>
       </div>
@@ -1188,7 +1188,7 @@ section { scroll-margin-top: 80px; position: relative; }
 
     <div class="rules-foot reveal">
       <span class="ln"></span>
-      <span>დაბეჭდილი სისხლში. ნატარები დუმილში.</span>
+      <span>მდინარის სიღრმე ორივე ფეხით არ შეამოწმო.</span>
       <span class="ln"></span>
     </div>
   </div>
@@ -1201,14 +1201,14 @@ section { scroll-margin-top: 80px; position: relative; }
       <div class="s-heading reveal">
         <div class="eyebrow">
           <span class="line"></span>
-          <span class="text">საუნჯე</span>
+          <span class="text">ისტორია</span>
           <span class="line"></span>
         </div>
         <h2 class="gold">ოჯახის არქივი</h2>
         <p class="italian">— L'Archivio —</p>
         <div class="rule"></div>
       </div>
-      <p class="reveal">წუთები, შენახული ჩრდილსა და კვამლში. სახეები, დამახსოვრებული დუმილში. ოჯახი არ პოზირებს ისტორიის წინ — ისტორია პოზირებს ოჯახის წინ.</p>
+      <p class="reveal">წუთები, შენახული ჩრდილსა და კვამლში. სახეები, დამახსოვრებული დუმილში. ოჯახი არ პოზირებს ისტორიის წინ — ისტორია პოზირებს ოჯახის წინ. შენ შეიძლება ამ ისტორიის ნაწილი გახდე.</p>
     </div>
 
     <div class="g-grid" id="galleryGrid"><!-- JS-ით ივსება --></div>
@@ -1252,7 +1252,7 @@ section { scroll-margin-top: 80px; position: relative; }
           </label>
 
           <label class="field">
-            <span class="label">ასაკი <span class="req">*</span></span>
+            <span class="label">რეალური ასაკი <span class="req">*</span></span>
             <input type="number" name="age" min="16" max="99" placeholder="32">
             <span class="err" data-err="age"></span>
           </label>
@@ -1290,7 +1290,7 @@ section { scroll-margin-top: 80px; position: relative; }
           </label>
 
           <div class="actions">
-            <p class="note">განცხადების გაგზავნით თანახმა ხარ დაიცვა ოჯახის დუმილი.</p>
+            <p class="note">განცხადების გაგზავნით თანახმა ხარ დაიცვა ოჯახის წესები.</p>
             <button type="submit" class="btn-mafia">გაგზავნე განცხადება</button>
           </div>
         </form>
@@ -1429,7 +1429,7 @@ const ROMAN = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
 /* ---------- წესების მონაცემები ---------- */
 const RULES = [
   { num:'I',   title:'ომერტა — დუმილის ფიცი',
-    body:'დუმილი წმინდაა. ის, რაც ოჯახის მაგიდასთან ისმის, არასოდეს ტოვებს ოჯახის კედლებს. ლაპარაკი — ღალატია. ღალატი — გაქრობას ნიშნავს.' },
+    body:'დუმილი წმინდაა. ის, რაც ოჯახის მაგიდასთან ისმის, არასოდეს ტოვებს ოჯახის კედლებს. ლაპარაკი — ღალატია. ხოლო ღალატს არ ვპატიობთ.' },
   { num:'II',  title:'ერთგულება საკუთარ თავზე მაღლა',
     body:'ოჯახი წინ უსწრებს კაცს. სიამაყე, ამბიცია და წყენა — დონისთვის გადასახდელი ვალია. ერთგულება კი სიცოცხლით იხდება.' },
   { num:'III', title:'ხელი არ აღმართო ოჯახზე',
@@ -1437,9 +1437,9 @@ const RULES = [
   { num:'IV',  title:'პატივი ეცი იერარქიას',
     body:'ელაპარაკე შენს კაპოს. კაპო ელაპარაკება სოტოკაპოს. სოტოკაპო ელაპარაკება დონს.' },
   { num:'V',   title:'სახელი დაიმსახურე',
-    body:'ოჯახი გამოგცდის. შემდეგ მიიღებს ოჯახი გადაწყვეტილებას იქნები თუარა მისი ნაწილი. ყველა კაცი თავის ადგილს ამ მაგიდასთან იმსახურებს იმით, რასაც აქ მოიტანს.' },
+    body:'ოჯახი დაგაკვირდება. შემდეგ მიიღებს გადაწყვეტილებას იქნები თუარა მისი ნაწილი. ყველა კაცი თავის ადგილს ამ მაგიდასთან იმსახურებს იმით, რასაც აქ მოიტანს.' },
   { num:'VI',  title:'არც ქალები, არც ბავშვები',
-    body:'ცოლები, დედები, ქალიშვილები და უდანაშაულონი — მაგიდის გარეთ არიან. ვინც ამას ივიწყებს, ივიწყებს კაცობის აზრს.' },
+    body:'ცოლები, დედები, ქალიშვილები და უდანაშაულონი — მაგიდის გარეთ არიან. დაიშვება გამონაკლისი შემთხვევები.' },
   { num:'VII', title:'პატივი ეცი ფიცს',
     body:'ფიცს როდესაც დადებ, უკან გზა აღარ არსებობს. შენ ეკუთვნი ოჯახს ამ ცხოვრებაში — და მომავალშიც.' },
 ];
@@ -1662,7 +1662,7 @@ if (window.lucide) lucide.createIcons();
             color: 0xC6A15B, // ოქროსფერი
             fields: [
               { name: '🎭 სათამაშო სახელი', value: v.rpName,     inline: true },
-              { name: '🕰️ ასაკი',           value: v.age,        inline: true },
+              { name: '🕰️ რეალური ასაკი',           value: v.age,        inline: true },
               { name: '⚔️ სპეციალობა',      value: v.specialty,  inline: true },
               { name: '💬 Discord',         value: v.discord,    inline: false },
               { name: '📖 გამოცდილება',     value: v.experience.slice(0, 1024), inline: false },
@@ -1692,7 +1692,7 @@ if (window.lucide) lucide.createIcons();
 
     if (!sent && hasWebhook) {
       // თუ webhook-მა არ იმუშავა, მაინც ვაჩვენოთ წარმატება — მაგრამ ვუთხრათ რომ ხელით უნდა გააგზავნოს
-      alert('ცოტა შეცდომა მოხდა გაგზავნისას. დააკოპირე შენი მონაცემები და გვითხარი Discord-ზე პირადში.');
+      alert('შეცდომა მოხდა გაგზავნისას. დააკოპირე შენი მონაცემები და გვითხარი Discord-ზე პირადში.');
       return;
     }
 
