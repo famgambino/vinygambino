@@ -1208,7 +1208,7 @@ section { scroll-margin-top: 80px; position: relative; }
         <p class="italian">— L'Archivio —</p>
         <div class="rule"></div>
       </div>
-      <p class="reveal">წუთები, შენახული ჩრდილსა და კვამლში. სახეები, დამახსოვრებული დუმილში. ოჯახი არ პოზირებს ისტორიის წინ — ისტორია პოზირებს ოჯახის წინ. შენ შეიძლება ამ ისტორიის ნაწილი გახდე.</p>
+      <p class="reveal">შენ შეიძლება ამ ისტორიის ნაწილი გახდე.</p>
     </div>
 
     <div class="g-grid" id="galleryGrid"><!-- JS-ით ივსება --></div>
@@ -1229,8 +1229,8 @@ section { scroll-margin-top: 80px; position: relative; }
         <div class="rule"></div>
       </div>
 
-      <p class="lead">ჩვენ არ ვაკეთებთ რეკლამას. ჩვენ არ ვეძებთ წევრებს. მაგრამ ყოველი კარი ხანდახან იღება — სწორი დაკაკუნებისთვის.</p>
-      <p class="body">გვითხარი ვინ ხარ. გვითხარი რის გაკეთება შეგიძლია. გვითხარი რისთვის  ხარ მზად. შემდეგ კი დაელოდე — ოჯახი მაშინ პასუხობს, როცა ამის დრო მოვა.</p>
+      <p class="lead">ყოველი კარი  იღება — თუ სწორ დროს დააკაკუნებ.</p>
+      <p class="body">გვითხარი ვინ ხარ. გვითხარი რის გაკეთება შეგიძლია. გვითხარი რისთვის  ხარ მზად. შემდეგ კი დაელოდე — ოჯახი გიპასუხებს.</p>
 
       <div class="join-points">
         <div class="pt"><span class="dash"></span><div><div class="k">დისკრეცია</div><div class="v">შენს განცხადებას მხოლოდ კონსილიერი წაიკითხავს.</div></div></div>
@@ -1388,7 +1388,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 /* ---------- იერარქიის მონაცემები ---------- */
 const HIERARCHY = [
   { title: 'დონი',         italian: 'Capofamiglia',   icon: 'crown',
-    desc: 'ოჯახის თავკაცი. მისი სიტყვა — კანონია. მისი დუმილი — განაჩენი. ყოველი ბრძანება იწყება და მთავრდება მის მაგიდასთან.' },
+    desc: 'ოჯახის თავკაცი. მისი სიტყვა — კანონია. მისი დუმილი — განაჩენი. ყოველი ბრძანება იწყება და მთავრდება მასთან.' },
   { title: 'სოტოკაპო',       italian: 'Sottocapo',      icon: 'shield',
     desc: 'მეორე პირი ოჯახში. ხმა, რომელიც ლაპარაკობს, როცა დონი დუმს, და ხელი, რომელიც კრავს, როცა დონი გადაწყვეტს.' },
   { title: 'კონსილიერი',   italian: 'Il Consigliere', icon: 'scroll',
@@ -1476,11 +1476,11 @@ const RULES = [
 
 /* ---------- გალერეის მონაცემები ---------- */
 const GALLERY = [
-  { src:'images/gallery/don.jpg?auto=format&fit=crop&w=1200&q=80', alt:'don',       span:'tall',   cap:'DON vinchenzo gambino' },
+  { src:'images/gallery/donviny.jpg?auto=format&fit=crop&w=1200&q=80', alt:'don',       span:'tall',   cap:'DON vinchenzo gambino' },
   { src:'images/gallery/soldati.jpeg?auto=format&fit=crop&w=1200&q=80', alt:'soldati',                  span:'',       cap:'კვამლი და დუმილი' },
   { src:'images/gallery/xedit.jpeg?auto=format&fit=crop&w=1400&q=80', alt:'hunting',           span:'wide',   cap:'hunting' },
-  { src:'images/gallery/4.jpeg?auto=format&fit=crop&w=1200&q=80', alt:'sotocapo',        span:'',       cap:'სოტოკაპო' },
-  { src:'images/gallery/caporegime.jpeg?auto=format&fit=crop&w=1200&q=80', alt:'caporegime',                  span:'tall',   cap:'caporegime' },
+  { src:'images/gallery/4.jpeg?auto=format&fit=crop&w=1200&q=80', alt:'sotocapo',        span:'',       cap:'sotocapo JACOB DUTTON' },
+  { src:'images/gallery/caporegime.jpeg?auto=format&fit=crop&w=1200&q=80', alt:'consiglieri',                  span:'tall',   cap:'consiglieri MATEO ZAKER' },
   { src:'https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1400&q=80', alt:'ცარიელი სალუნი',          span:'wide',   cap:'სალუნი' },
   { src:'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80', alt:'მარტოხელა მხედარი',       span:'',       cap:'მხედრები' },
   { src:'https://images.unsplash.com/photo-1473800447596-01729482b8eb?auto=format&fit=crop&w=1200&q=80', alt:'ჭაღი ჩამქრალ ოთახში',     span:'',       cap:'შეხვედრა' },
